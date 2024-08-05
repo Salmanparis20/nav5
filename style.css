@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.herosection{
+    background-color:darkgrey;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.jumbotron{
+    height: auto;
+    width: 70%;
+    padding: 300px 250px 300px 250px;
+    color: black;
+    
+}
+.jumbotron h1 {
+    font-size: 40px;
+    display: flex;
+}
+.jumbotron h2{
+    display: flex;
+
+}
+.jumbotron p{
+    padding: 10px 0px;
+    display: flex;
+}
+.jumbotron button{
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 20px 0px 20px;
+    font-size: 10px;
+}
+.heroimg{
+    display: flex;
+    align-items: center;
+    margin-right: 10%;
+}
+.herosection img{
+    height: 30%;
+    width: 50%;
+    
+}
+.navbar{
+    background-color: blue;
+     
+     height: 80px;
+     width: 100%;
+     color: azure;
+}
+.details{
+    display: flex;
+     justify-content: center;
+     /* align-items: center; */
+     padding: 10px;
+     text-indent: 50px;
+}
+.contact details h2{
+    padding-top: 80px;
+}
